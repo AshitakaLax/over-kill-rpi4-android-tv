@@ -10,6 +10,8 @@ A low cost rpi4 Android TV setup instructions that destroys weak sauce "Smart" t
  *  Install [OpenGApps](https://sourceforge.net/projects/opengapps/files/arm/test/20210130/) for Google play access.
  * Gigabit network file system for apps and persistent data storage.
  * Slightly overclock CPU for burst performance improvements while maintaining below 50C temperature(Note: temp throttling takes place at 80C).
+ * Attach network drive that contains the android /sdcard items
+   *  
 
 ## OS Performance Goals
 
