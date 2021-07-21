@@ -17,3 +17,11 @@ A low cost rpi4 Android TV setup instructions that destroys weak sauce "Smart" t
 
 With the SDCard throughput throttling the OS speeds to ~20MB/S. The next upgrade would be a SSD USB drive with ~40MB/S. The Network I/O speeds can get up to around ~110 MB/s. With the known performance king ramdisk at about 300MB/s.
 We should be able to out perform most Raspberry pi Android TV setups.
+
+
+## Benchmarks
+
+Read Speed
+| Device | SDCard | SSD(USB) | M.2 | Command | Source|
+|:------:|:------:|:------:|:------:|:------:|:------:|
+| Read speed | 44.53 MB/sec | 108.56 MB/sec | 347.06 MB/sec | hdparm -t | [Raspberry Pi 4 Boot from USB:14 minutes into it](https://www.youtube.com/watch?v=nFM01mQ9qrk) |
